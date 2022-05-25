@@ -1,6 +1,6 @@
 
-document.querySelector('button').onclick=(e)=>{
-    e.preventDefault()
+document.querySelector('button').onclick=(event)=>{
+    event.preventDefault()
     calculadoraImc()        
 }
 
